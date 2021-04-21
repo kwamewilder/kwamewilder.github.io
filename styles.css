@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Newsreader:ital@0;1&display=swap&family=Acme&family=Josefin+Sans:ital@0;1&family=Merriweather:ital@0;1&family=Passion+One&display=swap");
+
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Acme, Passion One, Libre Baskerville, serif;;
+    color: #CA1551;
+    padding-left: 1em;
+  }
+  #content {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  body {
+    font-family: Josefin Sans, Newsreader, Merriweather, serif;
+    color: #345995;
+    
+  }
+  header {
+    text-align: center;
+    padding: 0.5px;
+    background-color:#EAC435; ;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2em;  
+  }
+  .portrait { 
+    grid-area: 1 / 5 / 2 / 6; 
+  }
+  .assignments {
+    grid-area: 1 / 1 / 2 / 5;
+  }
+  footer {
+    text-align: center;
+    padding: 2px;
+    background-color:#EAC435;
+  }
+  @media screen and (max-width: 550px) {
+    .home-grid,
+    nav ul,
+    footer {
+      display: block;
+    }
+  }
