@@ -22,8 +22,9 @@
   }
   header {
     text-align: center;
+    color: white;
     padding: 0.5px;
-    background-color:#EAC435; 
+    background-color:#345995; 
   }
   main {
     display: grid;
@@ -38,10 +39,10 @@
     grid-area: 1 / 1 / 2 / 5;
   }
   footer {
-   
+    color: white;
     text-align: center;
     padding: 2px;
-    background-color:#EAC435;
+    background-color:#345995;
   }
   @media screen and (max-width: 550px) {
     .home-grid,
