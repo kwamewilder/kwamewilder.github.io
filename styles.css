@@ -32,6 +32,7 @@
   }
   .portrait { 
     grid-area: 1 / 5 / 2 / 6; 
+    padding-top: 5px;
   }
   .assignments {
     grid-area: 1 / 1 / 2 / 5;
