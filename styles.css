@@ -8,7 +8,7 @@
   h5,
   h6 {
     font-family: Acme, Passion One, Libre Baskerville, serif;;
-    color: #CA1551;
+    
     padding-left: 1em;
   }
   #content {
@@ -23,7 +23,7 @@
   header {
     text-align: center;
     padding: 0.5px;
-    background-color:#EAC435; ;
+    background-color:#EAC435; 
   }
   main {
     display: grid;
@@ -32,12 +32,13 @@
   }
   .portrait { 
     grid-area: 1 / 5 / 2 / 6; 
-    padding-top: 5px;
+    padding-top: 3px;
   }
   .assignments {
     grid-area: 1 / 1 / 2 / 5;
   }
   footer {
+   
     text-align: center;
     padding: 2px;
     background-color:#EAC435;
