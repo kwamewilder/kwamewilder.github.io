@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Newsreader:ital@0;1&display=swap&family=Acme&family=Josefin+Sans:ital@0;1&family=Merriweather:ital@0;1&family=Passion+One&display=swap");
+
+@media only screen and (min-width: 32.5em){
+
+    .container {
+        max-width:65%;
+    }
+
+    header img {
+        float: right;
+        border-radius: 0 10px 0 0;
+        box-shadow: 0 0px 30px #444;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    main h2 {
+        font-size: 1.8em;
+    }
+}

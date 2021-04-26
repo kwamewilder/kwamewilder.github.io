@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Newsreader:ital@0;1&display=swap&family=Acme&family=Josefin+Sans:ital@0;1&family=Merriweather:ital@0;1&family=Passion+One&display=swap");
+
+body{
+    
+    font-family: Josefin Sans, Newsreader, Merriweather, serif;
+    color: #345995;
+    padding: 1em;
+}
+
+.container {
+    max-width:90%;
+    margin: 0 auto;
+    background-color: #eee;
+    border-radius: 1.2em;
+    box-shadow: 0 3px 3px rgba(4, 5, 5, .4);
+}
+
+header,footer{
+    background-color:#345995; 
+    color: #fff;
+    text-align: center;
+    padding: .5em;
+    border-radius: .8em;
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
+}
+
+header img{
+    height: auto;
+    max-width: 9em;
+    border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 5px 5px #444;
+}
+
+header h1{
+    font-family: Acme, Passion One, Libre Baskerville, serif;
+    margin:0;
+    font-size: 1.8em;
+}
+
+main{
+    padding: 1em;
+}
+
+main h2{
+    font-family: Acme, Passion One, Libre Baskerville, serif;
+    border-bottom: 2px solid #424874;
+    font-size: 1.2em;
+}
+
+main ul li{
+    line-height: 1.8;
+}
+
+footer a{
+    color: #fff;
+}
+
