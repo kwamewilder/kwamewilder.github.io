@@ -38,6 +38,8 @@ section {
       color: white;
       text-align: center;
       margin-top: none; 
+      border-radius: .8em;
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
     
   }
 
@@ -71,5 +73,7 @@ section {
     text-align: center;
     padding: 5px;
     color: white;
+    border-radius: .8em;
+    text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
   
   }
