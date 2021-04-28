@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Newsreader:ital@0;1&display=swap&family=Acme&family=Josefin+Sans:ital@0;1&family=Merriweather:ital@0;1&family=Passion+One&display=swap");
+
+  
+
+main {
+	height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main h2 {
+    color: white;
+    background-color: #345995; 
+    font-size: 20px;
+    }
+
+
+section { 
+    text-align: center;
+    margin-top: 10px; 
+    background-color:#f8f8ff;  
+    margin: 10px;
+}
+
+  
+  header, main, footer {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2px;
+     
+  }
+  
+  header {
+      font-family: Acme, Passion One, Libre Baskerville, serif;
+      background-color:#345995;
+      color: white;
+      text-align: center;
+      margin-top: none; 
+    
+  }
+
+  main {
+      color: #345995;
+      font-family: Josefin Sans, Newsreader, Merriweather, serif;
+      size: 2px;
+  }
+  
+  h1 {
+      font-family: Acme, Passion One, Libre Baskerville, serif;
+      color: white;
+      font-family: 'Acme', sans-serif;
+      font-size: 60px;
+  }
+  h2{
+    font-family: Acme, Passion One, Libre Baskerville, serif;
+    color: white;
+  }
+ 
+  img {
+     max-width: 250px;
+     height: auto;
+     border-radius: 10px;
+     box-shadow: 5px 5px 7px grey;
+  }
+  
+  footer {
+    background-color:#345995;
+    font-family: Josefin Sans, Newsreader, Merriweather, serif;
+    text-align: center;
+    padding: 5px;
+    color: white;
+  
+  }
