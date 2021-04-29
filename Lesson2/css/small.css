@@ -37,7 +37,6 @@ section {
       background-color:#345995;
       color: white;
       text-align: center;
-      margin-top: none; 
       border-radius: .8em;
     text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
     
@@ -46,7 +45,6 @@ section {
   main {
       color: #345995;
       font-family: Josefin Sans, Newsreader, Merriweather, serif;
-      size: 2px;
   }
   
   h1 {
