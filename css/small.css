@@ -54,4 +54,10 @@ main ul li{
 footer a{
     color: #fff;
 }
-
+@media screen and (max-width: 550px) {
+    .home-grid,
+    nav ul,
+    footer {
+      display: block;
+    }
+}
