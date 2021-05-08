@@ -147,7 +147,6 @@ section{
 .personas div h4{
     color: #345995;
     text-decoration-color: #7CC6FE;
-    text-decoration-thickness: .2em;
     text-underline-position: under;
 }
 
@@ -260,7 +259,6 @@ section{
 
 .typography div>h3{
     text-decoration-color: #7CC6FE;
-    text-decoration-thickness: .2em;
     text-underline-position: under;
 }
 
