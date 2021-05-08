@@ -193,18 +193,22 @@ section{
 }
 
 .primary-color{
+    color:  white;
     background-color: #345995;
 }
 
 .secondary-color {
+    color: black;;
     background-color: #ccc;
 }
 
 .accent1-color {
+    color: #345995;
     background-color: #FFEFB8;
 }
 
 .accent2-color {
+    color: black;
     background-color: #7CC6FE;
 }
 
