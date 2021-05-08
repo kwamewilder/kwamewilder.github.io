@@ -1,27 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Newsreader:ital@0;1&display=swap&family=Acme&family=Josefin+Sans:ital@0;1&family=Merriweather:ital@0;1&family=Passion+One&display=swap");
+
 body {
-    background-color: #424874;
-    font-family: 'Montserrat', sans-serif;
     padding: 1em;
 }
 
 .container {
     max-width: 90%;
     margin: 0 auto;
-    background-color: #eee;
+    background-color: #f8f8ff;
     border-radius: 1.2em;
     box-shadow: 0 3px 3px rgba(4, 5, 5, .4);
 }
 
 header,
 footer {
-    background-color: #a6b1e1;
-    color: #fff;
+    font-family: Josefin Sans, Newsreader, Merriweather, serif;
+    background-color: #345995;
+    color: #ffffff;
     text-align: center;
     padding: .5em;
     text-shadow: 0 3px 3px rgba(4, 3, 3, .5);
 }
 
 header{
+    font-family: Acme, Passion One, Libre Baskerville, serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,12 +37,13 @@ header h1 {
 }
 
 main {
+    font-family: Josefin Sans, Newsreader, Merriweather, serif;
     text-align: center;
     margin: 0;
 }
 
 nav{
-    background-color: #7CC6FE;
+    background-color: #ccc;
     margin-top: 0;
     max-width: 100%;
 }
@@ -62,15 +65,18 @@ nav ul li:last-child{
 }
 
 nav ul li a{
-    color: #2F4858;
+    color: #345995;
     text-decoration: none;
     font-weight: 800;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 nav ul li a:hover {
-    background-color: #2F4858;
-    color: #fff;
+    background-color: #FFEFB8;
+    color: black;
 }
 
 section{
@@ -86,6 +92,14 @@ section{
     padding: 1em 3em;
 }
 
+.purpose h3{
+    color: #345995;
+}
+
+.domain h3{
+    color: #345995;
+}
+
 .domain img{
     max-width: 80%;
     border-radius: .5em;
@@ -97,11 +111,19 @@ section{
     max-width: 50%;
 }
 
+.logo h3{
+    color: #345995;
+}
+
 /* Target audience */
 
 .audience{
     padding: 0 2em;
     border-bottom: 1px #ccc solid;
+}
+
+.audience h3{
+    color: #345995;
 }
 
 .personas{
@@ -112,30 +134,36 @@ section{
 }
 
 .personas h3{
+    color: #345995;
     grid-column: 1/-1;
 }
 
 .personas div{
     border: 1px #ccc solid;
-    border-radius: .5em;
+    border-radius: 2em;
     padding: .5em 1em;
 }
 
 .personas div h4{
-    text-decoration: underline;
+    color: #345995;
     text-decoration-color: #7CC6FE;
     text-decoration-thickness: .2em;
     text-underline-position: under;
 }
 
+.scenarios h3{
+    color: #345995;
+}
 .scenarios dl{
-    text-align: left;
-    padding: 1em;
+    border: 1px #ccc solid;
+    border-radius: 2em;
+    padding: 3em;
     margin: 0 2em;
 }
 
 .scenarios dl dt{
     font-weight: bold;
+    text-align: center;
 }
 
 /* color scheme */
@@ -144,6 +172,10 @@ section{
     margin: 0 auto;
     width: 80%;
     border-spacing: .2em;
+}
+
+.color-scheme h3{
+    color:#345995;
 }
 
 .color-scheme table tr td{
@@ -162,19 +194,19 @@ section{
 }
 
 .primary-color{
-    background-color: #A6B1E1;
+    background-color: #345995;
 }
 
 .secondary-color {
-    background-color: #424874;
+    background-color: #ccc;
 }
 
 .accent1-color {
-    background-color: #7CC6FE;
+    background-color: #FFEFB8;
 }
 
 .accent2-color {
-    background-color: #2F4858;
+    background-color: #7CC6FE;
 }
 
 /* Typography */
@@ -182,12 +214,51 @@ section{
     padding: 2em;
 }
 
+.typography h3{
+    color:#345995;
+}
+
 .typography p{
     padding: 0 3em;
 }
 
+.one{
+    background-color:#7CC6FE;
+    font-size: x-large;
+    font-family: Acme, serif;
+}
+
+.two{
+    background-color:#7CC6FE;
+    font-size: x-large;
+    font-family: Passion one, serif;;
+}
+
+.three{
+    background-color:#7CC6FE;
+    font-size: x-large;
+    font-family: Libre Baskerville, serif;;
+}
+
+.four{
+    background-color:#7CC6FE;
+    font-size: x-large;
+    font-family: Josefin Sans, serif;;
+}
+
+.five{
+    background-color:#7CC6FE;
+    font-size: x-large;
+    font-family: Newsreader, serif;;
+}
+
+.six{
+    background-color:#7CC6FE;
+    font-size: x-large;
+    font-family: Merriweather, serif;;
+}
+
 .typography div>h3{
-    text-decoration: underline;
     text-decoration-color: #7CC6FE;
     text-decoration-thickness: .2em;
     text-underline-position: under;
