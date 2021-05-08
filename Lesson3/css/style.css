@@ -65,7 +65,7 @@ nav ul li:last-child{
 }
 
 nav ul li a{
-    color: #345995;
+    color: black;
     text-decoration: none;
     font-weight: 800;
     padding-top: 1em;
@@ -76,7 +76,7 @@ nav ul li a{
 
 nav ul li a:hover {
     background-color: #FFEFB8;
-    color: black;
+    color: #345995;
 }
 
 section{
@@ -253,7 +253,7 @@ section{
 }
 
 .six{
-    background-color:#7CC6FE;
+    
     font-size: x-large;
     font-family: Merriweather, serif;;
 }
