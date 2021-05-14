@@ -1,0 +1,41 @@
+@media only screen and (min-width: 42em){
+    .logo{
+        width: 110px;
+        height: auto;
+    }
+   header{ 
+       justify-content: center; 
+   }
+   h1{
+        font-size: 2.7rem;
+   } 
+   
+    /*.main-nav img{
+        display: block;
+    }*/
+
+    .main-nav ul li{
+       flex: 1 1 100%;
+    }
+    .main-nav ul li a{ 
+        text-align: center;
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        font-size: 0.75rem;
+    }
+     .main-nav ul.hide, .main-nav ul{
+        display: flex;
+        flex-direction: row;   
+        
+        
+    }
+    .forecast5{
+        display: block;
+        background-color:rgba(175, 242, 245, 0.4);
+        padding: 10px 0;
+        text-align: center;
+    }
+
+
+    
+}
