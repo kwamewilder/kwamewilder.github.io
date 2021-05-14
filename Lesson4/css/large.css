@@ -1,0 +1,25 @@
+@media only screen and (min-width:55em){
+    .logo{
+        width: 128px;
+        height: auto;
+    }
+     .header-text div{
+        font-size: 0.9rem;
+}
+    /*.main-nav ul{
+       margin: 0 auto; 
+    }*/
+
+    .main-nav img{
+        display: block;
+    }
+    .main-nav ul li a{
+        font-size: 0.9rem;
+    }
+    .main-nav ul li:first-child a{
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
