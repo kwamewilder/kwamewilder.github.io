@@ -1,41 +1,32 @@
-@media only screen and (min-width: 42em){
-    .logo{
-        width: 110px;
-        height: auto;
+@media only screen and (min-width: 32.5em) {
+    .title h1 {
+        font-size: 1.8em;
     }
-   header{ 
-       justify-content: center; 
-   }
-   h1{
-        font-size: 2.7rem;
-   } 
-   
-    /*.main-nav img{
-        display: block;
-    }*/
-
-    .main-nav ul li{
-       flex: 1 1 100%;
-    }
-    .main-nav ul li a{ 
-        text-align: center;
-        border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
-        font-size: 0.75rem;
-    }
-     .main-nav ul.hide, .main-nav ul{
+    .navigation {
         display: flex;
-        flex-direction: row;   
-        
-        
     }
-    .forecast5{
+
+    .navigation li {
         display: block;
-        background-color:rgba(175, 242, 245, 0.4);
-        padding: 10px 0;
+        flex: 1 1 auto;
+        border-right: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    .navigation li a {
         text-align: center;
     }
 
+    .navigation li:last-of-type{
+        border-right:none;
+    }
 
-    
+    .navigation li:first-child {
+        display: none;
+    }
+
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
 }

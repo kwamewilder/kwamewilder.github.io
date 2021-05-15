@@ -1,32 +1,27 @@
-</!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Anna Astle's Preston Town Page for WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <title> Preston page for Cloud Catch Site</title>
+    <title>Daily Weather Updates | Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-</head> 
-
-<body>
+</head>
+<body onload="date()"">
     <header>
-        <img class="logo" src="images/logo.png" alt="Cloud Catch logo">
-        <section class="header-text">
-        <h1>DAILY WETAHER UPDATES</h1>
-        <div>For Idahoans fishing the clouds</div>
-        </section>
+        <img src="images/logo.png" alt="Daily weather">
+        <div class="title">
+            <h1>Daily Weather Updates</h1>
+            <h3>Source for accurate weather</h3>
+        </div>
     </header>
-    <nav class="main-nav">
-       <!-- <img src="/kwamewilder.github.io/Lesson4/images/588a6507d06f6719692a2d15.png" alt="ham" onclick="toggleMenu()"> -->
-        <button type="button" onclick="toggleMenu()"> &#9776; Menu</button>
-        <ul id="navigation" class="">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="Btn">&#9776; Menu</a></li>
+            <li><a href="preston-4.html">Home</a></li>
+            <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -34,33 +29,27 @@
         </ul>
     </nav>
     <main>
-        <h2>Town Name</h2>
-        <div>
-        <img src="#" alt="Hero">
-        <p>Weather Summary</p>
+        <h2>Preston Idaho</h2>
+        <div class="temp">
+            <p>Hero</p>
         </div>
-        <div class="forecast5">5 day Forecast</div>
-        <article>
-            <h3>Title</h3>
-            <p>by author</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Consequat interdum varius sit amet mattis vulputate enim. Viverra justo nec ultrices dui. At imperdiet dui
-            accumsan sit amet nulla facilisi morbi tempus. Sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Lorem
-            ipsum dolor sit amet consectetur. Auctor eu augue ut lectus arcu bibendum. Id neque aliquam vestibulum morbi blandit
-            cursus risus at ultrices. Lectus quam id leo in vitae turpis massa sed elementum. Facilisis magna etiam tempor orci eu
-            lobortis. Dictum sit amet justo donec enim diam vulputate ut pharetra. Accumsan tortor posuere ac ut.</p>
-            <img src="#" alt="image related to article">
-        </article>
-        <div>
-        <img src="#" alt="map">
-        <p>Contact Information</p>
+        <div class="temp">
+            <p>Weather summary</p>
+        </div>
+        <div class="temp">
+            <p>Five Day Forecast</p>
+        </div>
+        <div class="temp">
+            <p>Article</p>
+        </div>
+        <div class="temp">
+            <p>Contact Information</p>
         </div>
     </main>
     <footer>
-        <p> &copy; Daily Weather Updates | Emmanuel Kumordji </p>
-        <p><span id="dateOfDay"></span></p>
+        <p>&copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji</p>
+        <p><span id="currentDate"></span></p>
     </footer>
-    <script src="/kwamewilder.github.io/Lesson4/js/script.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
-
 </html>
