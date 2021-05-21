@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5em) {
+    .title h1 {
+        font-size: 1.8em;
+    }
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+        border-right: 1px solid rgba(0, 0, 0, .1);
+    }
+
+    .navigation li a {
+        text-align: center;
+    }
+
+    .navigation li:last-of-type{
+        border-right:none;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+}

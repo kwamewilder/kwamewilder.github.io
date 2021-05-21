@@ -1,0 +1,13 @@
+@media only screen and (min-width: 64rem) {
+    .title h1 {
+        font-size: 2em;
+    }
+
+    footer {
+        font-size: 1em;
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: inset 0 0 10px #222;
+        margin-bottom: 1em;
+    }
+}
