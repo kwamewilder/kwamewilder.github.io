@@ -2,7 +2,7 @@ const input = document.querySelector("input");
 const button = document.querySelector("button");
 const list = document.querySelector("ul");
 
-// step5 annonymous
+
 button.addEventListener("click", function() {
   let myChapter = input.value;
   input.value = "";
@@ -11,17 +11,17 @@ button.addEventListener("click", function() {
   const listText = document.createElement('span');
   const listBtn = document.createElement('button');
 
+ 
   listChapter.appendChild(listText);
   listText.textContent = myChapter;
   listChapter.appendChild(listBtn);
   listBtn.textContent = "❌";
-  list.appendChild(listChapter);
-  
+  list.appendChild(listChapter); 
+ 
   listBtn.addEventListener("click", function () {
-  list.removeChild(listChapter);
+    list.removeChild(listChapter);
   })
   
   input.focus();
-
 
 })
