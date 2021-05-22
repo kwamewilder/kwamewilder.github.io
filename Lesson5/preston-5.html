@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Weather Updates | Home</title>
+    <link rel="shortcut icon" href="/Lesson5/images/logo.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="https://kit.fontawesome.com/2bdc0b59cd.js" crossorigin="anonymous"></script>
+</head>
+<body onload="date()">
+    <aside id="aside" style="display: none;">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img src="images/logo.png" alt="Daily weather">
+        <div class="title">
+            <h1>Daily Weather Updates</h1>
+            <h3>Source for accurate weather</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="Btn">&#9776; Menu</a></li>
+            <li><a href="preston-5.html">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <article class="herodiv">
+            <div class="weatherSummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span>Sunny</span></p>
+                <p>High: <span>76 °F</span></p>
+                <p>Wind Chill: <span>°F</span></p>
+                <p>Humidity: <span>69%</span></p>
+                <p>Wind Speed: <span>5 mph</span></p>
+            </div>
+        </article>
+        <article class="forecast5">
+            <h3>Five Day Forecast</h3>
+            <table>
+                <tr>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-sun fa-4x"></i></td>
+                    <td><i class="fas fa-sun fa-4x"></i></td>
+                    <td><i class="fas fa-sun fa-4x"></i></td>
+                    <td><i class="fas fa-sun fa-4x"></i></td>
+                    <td><i class="fas fa-sun fa-4x"></i></td>
+                </tr>
+                <tr>
+                    <td>89°F</td>
+                    <td>87°F</td>
+                    <td>78°F</td>
+                    <td>75°F</td>
+                    <td>72°F</td>
+                </tr>
+            </table>
+        </article>
+            <article>
+                <h3>Founders Day Fresco</h3>
+                <p class="author">by Emmanuel W. Kumordji</p>
+                <img src="/Lesson5/images/pexels-fauxels-3184360(1).jpg"  alt="meeting">
+                <div class="article-p">
+                    <br>
+                <p>I was recently reflecting upon the founders
+                    day event held at Foundation Park each year.
+                    I have been taking the festival for granted
+                    and have not been properly engaging in perhaps
+                    the most popular community event of the year.
+                    In response, I contacted Ms. Sharon via email
+                    and expressed my desire to serve on the event
+                    committee. Well, you guessed it, the phone rings
+                    almost immediately and she promptly asks me to
+                    be the event committee chair. Literally, good
+                    grief! My appreciation for the years of dedicated,
+                    generous service of volunteers and sponsors has
+                    escalated beyond waht I thought I could fell for
+                    such a thing and ...</p>
+                </div>
+            </article>
+            <article class="contact-info">
+                <img src="/Lesson5/images/image.png" alt="map">
+                <div class="wrapper-info">
+                    <h3>Daily Weather Update</h3>
+                    <div class="location">
+                        <p><i class="fas fa-map-marker-alt"></i> 105N 1W</p>
+                        <p>Prenston, ID 83263</p>
+                    </div>
+                    <p><i class="fas fa-phone-alt"></i> 222.222.2222</p>
+                    <p><i class="fas fa-envelope"></i> contact@dailyweatherupdates.com</p>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></i></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </article>
+
+    </main>
+    <footer>
+        <p>&copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji</p>
+        <p><span id="currentDate"></span></p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
