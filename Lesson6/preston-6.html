@@ -36,19 +36,18 @@
     <main>
         <h2>Preston Idaho</h2>
         <article class="herodiv">
-            <picture>
-                <source media="(max-width: 400px)" srcset="images/small.jpg">
-                <source media="(max-width: 600px)" srcset="images/medium.jpg">
-                <source media="(max-width: 800px)" srcset="images/large.jpg">
+            <picture >
+                <source media="(max-width: 575px)" srcset="images/small.jpg">
+                <source media="(max-width: 895px)" srcset="images/medium.jpg">
                 <img src="images/large.jpg" alt="hero image">
             </picture>
             <div class="weatherSummary">
                 <h3>Weather Summary</h3>
                 <p>Currently: <span>Sunny</span></p>
-                <p>High: <span>76 °F</span></p>
-                <p>Wind Chill: <span>°F</span></p>
+                <p>High: <span id="tempH">50</span>°F</p>
+                <p>Wind Chill: <span id="wChill"></span>°F</p>
                 <p>Humidity: <span>69%</span></p>
-                <p>Wind Speed: <span>5 mph</span></p>
+                <p>Wind Speed: <span id="wSpeed">12</span> mph</p>
             </div>
         </article>
         <article class="forecast5">
@@ -127,7 +126,7 @@
     <script>
         WebFont.load({
             google: {
-                families: ['Newsreader:300,400,700']
+                families: ['Newsreader' , 'Acme']
             }
         });
     </script>
