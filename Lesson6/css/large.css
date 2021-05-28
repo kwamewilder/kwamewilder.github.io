@@ -1,0 +1,56 @@
+@media only screen and (min-width: 64rem) {
+    .title h1 {
+        font-size: 2em;
+    }
+
+    .herodiv {
+        min-height: 20em;
+    }
+
+    .weatherSummary {
+        top:2em;
+        left:2em;
+        font-size: 1em;
+    }
+
+    .blog{
+        padding: 2em;
+    }
+    
+    .blog h3 {
+        font-size: 1.5em;
+    }
+
+    .blog img {
+        float:right;
+        max-width: 20em;
+        margin-left: 1em;
+    }
+
+    .blog p {
+        font-size: 1em;
+    }
+
+    .blog a {
+        font-size: 1em;
+    }
+    
+    .wrapper-info p {
+        font-size: 1em;
+    }
+
+    .wrapper-info ul li {
+        display: inline;
+        font-size: 2em;
+        margin: 0 .2em;
+    }
+
+
+    footer {
+        font-size: 1em;
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: inset 0 0 10px #222;
+        margin-bottom: 1em;
+    }
+}
