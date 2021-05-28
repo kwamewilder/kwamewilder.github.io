@@ -55,13 +55,13 @@
     }
 
     .forecast5 table tr th{
-        background-color: #FFEFB8;
+        background-color: #7CC6FE; 
         color: black;
         padding: .5em;
     }
     .forecast5 table tr td{
         padding: .5em;
-        color: #FFEFB8;
+        color: #7CC6FE; 
         font-weight:bold;
         margin: .5em;
     }
@@ -71,7 +71,7 @@
     }
 
     .forecast5 .fa-sun{
-        color: #FFEFB8;
+        color: #7CC6FE; 
         text-shadow: 3px 5px 5px #888;
     }
 
