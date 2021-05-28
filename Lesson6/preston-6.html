@@ -25,7 +25,7 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" id="Btn">&#9776; Menu</a></li>
-            <li><a href="preston-5.html">Home</a></li>
+            <li><a href="preston-6.html">Home</a></li>
             <li><a href="#" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
@@ -36,6 +36,12 @@
     <main>
         <h2>Preston Idaho</h2>
         <article class="herodiv">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/small.jpg">
+                <source media="(max-width: 600px)" srcset="images/medium.jpg">
+                <source media="(max-width: 800px)" srcset="images/large.jpg">
+                <img src="images/large.jpg" alt="hero image">
+            </picture>
             <div class="weatherSummary">
                 <h3>Weather Summary</h3>
                 <p>Currently: <span>Sunny</span></p>
@@ -117,6 +123,15 @@
         <p>&copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji</p>
         <p><span id="currentDate"></span></p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Newsreader:300,400,700']
+            }
+        });
+    </script>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

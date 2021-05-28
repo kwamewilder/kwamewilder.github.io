@@ -28,15 +28,14 @@ header{
 }
 
 .herodiv{
-    background-image: url(/Lesson5/images/pexels-pixabay-414171.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     position: relative;
-    min-height: 18em;
     margin:1em;
     margin-bottom: 2em;
-    border-radius: .2em;
+}
+
+.herodiv picture img{
+    width: 100%;
+    border-radius: .8em;
 }
 .weatherSummary{
     position: absolute;
@@ -49,13 +48,7 @@ header{
     font-style: italic;
 }
 
-header img{
-    margin-right: .5em;
-    height: 180px;
-    margin-bottom: 0 !important;
-    max-width: 200px;
-     width: 200px;
-}
+
 
 .active{
     background-color: #FFEFB8;
