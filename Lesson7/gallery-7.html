@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Weather Updates | Home</title>
+    <link rel="shortcut icon" href="/Lesson6/images/logo.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="https://kit.fontawesome.com/2bdc0b59cd.js" crossorigin="anonymous"></script>
+</head>
+<body onload="date()">
+    <aside id="aside" style="display: none;">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img src="images/logo.png" alt="Daily weather">
+        <div class="title">
+            <h1>Daily Weather Updates</h1>
+            <h3>Source for accurate weather</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="Btn">&#9776; Menu</a></li>
+            <li><a href="preston-6.html">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <div class="card">
+                <img src="images/placeholder.jpg"
+                    data-src="images/girl-with-her-dog-sitting-on-rock-and-looking-at-mountains.jpg"
+                    alt="Girl with her dog stting on rock and looking at mountains">
+                <p>Girl with her dog</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg"
+                    data-src="images/landscape-watering-water.jpg"
+                    alt="landscape watering water">
+                <p>Landscape watering water</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/landscape-with-mountains-and-tourists.jpg"
+                    alt="landscape with mountains and tourists">
+                <p>Landscape with mountains</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/male-tourist-looking-at-mountains.jpg"
+                    alt="a male tourist looking at mountains">
+                <p>Looking at mountains</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/natur-fall-foliage-branch-branches.jpg"
+                    alt="nature fall foliage branch branches">
+                <p>Nature fall foliage</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/natural-forest-snow-mountainous.jpg"
+                    alt="natural forest snow mountainous">
+                <p>Snow mountainous</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/outdoors-unites-states-united.jpg" 
+                    alt="Outdoors unites states united">
+                <p>Outdoors</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/sunset-with-mountains-and-clouds.jpg"
+                    alt="Sunset with mountains and clouds">
+                <p>Sunset with mountains</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/view-of-forest.jpg" 
+                    alt="a nice view of forest">
+                <p>A nice view of forest</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji</p>
+        <p><span id="currentDate"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Newsreader' , 'Acme']
+            }
+        });
+    </script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
