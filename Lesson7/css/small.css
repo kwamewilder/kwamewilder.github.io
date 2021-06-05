@@ -25,35 +25,6 @@ header img{
     grid-row-gap: 25px;
 }
 
-.author{
-    font-style: italic;
-}
-
-.herodiv{
-    position: relative;
-    margin: auto;
-    margin-bottom: 2em;
-    
-}
-
-.herodiv picture img{
-    width: 100%;
-    
-}
-.weatherSummary{
-    position: absolute;
-    top: 1em;
-    left: 1em;
-    background: white;
-    border: 2px solid rgb(175, 242, 245);
-    text-align: center;
-    line-height: 1.8;
-    border-radius: .2em;
-    opacity: 0.9;
-    font-size: 0.5rem;
-    font-style: italic;
-}
-
 
 
 .active{
@@ -135,107 +106,41 @@ main h2{
     margin-bottom: 1em ;
 }
 
-
-.weatherSummary {
-    position: absolute;
-    line-height: 1.8;
-    font-size: .8em;
-    border-radius: .2em;
-    top:1em;
-    left:1em;
-    padding: .5em 1em;
-}
-.weatherSummary h3{
-    border-bottom: 2px solid #fff;
-    margin-bottom: .5em
+.gallery {
+    display: flex;
+    flex-direction: column;
 }
 
-article {
+.card {
     
-    padding: 1em;
-    font-size: 1.5em;
-}
-
-#im{
-    float: right;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    padding-left: 1em;
-    max-width: 400px;
-    display: block;
-        margin: 0 auto;
-}
-
-.post{
-    background-color: #7CC6FE; 
-}
-
-
-.contact-info{
-    background-color: #7CC6FE;
-}
-
-.map{
-    float: left;
-    display: block;
-    max-width: 80%;
     
-    padding-right: 2em;
-}
-
-.forecast5{
+    max-width: 100%;
+    margin: 1em .5em;
+    padding: .5em;
     
-    text-align: center ;
-    display: none;
 }
 
-.address{
-    padding-top: 1em;
+.card:first-of-type {
+    margin-top: 0;
 }
 
-.address, .emailPhone, .mediaIcons{
-    padding-left: 18em;
-    font-size: 1.2em;
+.card img {
+    width: 100%;
+}
+
+
+
+img {
+    filter: blur(0em);
+    transition: filter 0.20s;
+}
+
+.card p {
     text-align: center;
+    padding: .5em;
 }
 
-.mediaIcons a{
-    margin-right: 7px;
-    text-decoration: none;
-}
-.wrapper-info{
-    margin: 0 auto;
-    width: 80%;
-}
 
-.wrapper-info h3{
-    margin-bottom: .5em;
-}
-
-.wrapper-info p{
-    line-height: 1.5;
-    font-size: .8em;
-}
-
-.wrapper-info .location {
-    margin-bottom: .8em;
-}
-
-.fa-map-marker-alt{
-    color:#F44336;
-}
-
-.wrapper-info ul{
-    list-style: none;
-    margin-top: 1em;
-    padding-left: 0;
-}
-
-.wrapper-info ul li{
-    display: inline;
-    font-size: 2em;
-    margin: 0 .2em;
-}
 footer{
     background-color: #345995;
     color: white;

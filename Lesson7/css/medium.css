@@ -23,91 +23,29 @@
     .navigation li:first-child {
         display: none;
     }
+    .gallery{
+        display: grid;
+        grid-gap: 1.5em;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        padding: .5em 1em;
+        margin-bottom: 1em;
+    }
 
+    .gallery h2{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    .card{
+        align-self: start;
+        margin: 0 0 1em 0;
+    }
     main {
         max-width: 80%;
         margin: 0 auto;
     }
 
-    .herodiv {
-        min-height: 15em;
-    }
-
-    .weatherSummary {
-        top:1.5em;
-        left:1.5em;
-    }
-
-    .forecast5{
-        display: block;
-        text-align: center;
-        margin-bottom: 2em;
-    }
-
-    .forecast5 table{
-        border: 1px solid #A6B1E1;
-        margin: .5em auto;
-        border-radius: .2em;
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
-        0 2px 2px rgba(0, 0, 0, 0.15),
-        0 4px 4px rgba(0, 0, 0, 0.15),
-        0 8px 8px rgba(0, 0, 0, 0.15);
-    }
-
-    .forecast5 table tr th{
-        background-color: #7CC6FE; 
-        color: black;
-        padding: .5em;
-    }
-    .forecast5 table tr td{
-        padding: .5em;
-        color: #7CC6FE; 
-        font-weight:bold;
-        margin: .5em;
-    }
-
-    .forecast5 table tr td:first-of-type {
-        border-left: none;
-    }
-
-    .forecast5 .fa-sun{
-        color: #7CC6FE; 
-        text-shadow: 3px 5px 5px #888;
-    }
-
-    .blog img {
-        float:right;
-        max-width: 15em;
-        margin-left: 1em;
-    }
-
-    .blog .author {
-        display: block;
-    }
-    .blog p {
-        display: inline;
-    }
-
-    .contact-info {
-        margin-top: 2em;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-    }
-
-    .contact-info .map {
-        display: block;
-        width: 50%;
-        margin: 0 2em;
-    }
-
-    .wrapper-info{
-        width: 50%;
-    }
-
-    .wrapper-info ul li {
-        margin: 0 .1em;
-    }
+    
 }
 

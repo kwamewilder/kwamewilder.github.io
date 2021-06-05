@@ -3,48 +3,23 @@
         font-size: 2em;
     }
 
-    .herodiv {
-        min-height: 20em;
-    }
-
-    .weatherSummary {
-        top:2em;
-        left:2em;
-        font-size: 1em;
-    }
-
-    .blog{
-        padding: 2em;
+    .gallery {
+        display: grid;
+        grid-gap: em;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
+        padding: .5em 3em;
+        margin-bottom: 1em;
     }
     
-    .blog h3 {
-        font-size: 1.5em;
-    }
-
-    .blog img {
-        float:right;
-        max-width: 20em;
-        margin-left: 1em;
-    }
-
-    .blog p {
-        font-size: 1em;
-    }
-
-    .blog a {
-        font-size: 1em;
+    .card{
+        transition: transform .5s;
+        transition-timing-function: ease-out;
     }
     
-    .wrapper-info p {
-        font-size: 1em;
+    img[data-src]:hover {
+        filter: blur(0.1em);
     }
-
-    .wrapper-info ul li {
-        display: inline;
-        font-size: 2em;
-        margin: 0 .2em;
-    }
-
 
     footer {
         font-size: 1em;
