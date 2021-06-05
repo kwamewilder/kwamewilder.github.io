@@ -15,9 +15,7 @@
     .navigation li a {
         text-align: center;
     }
-    img[data-src]:hover {
-        filter: blur(0.1em);
-    }
+   
     .navigation li:last-of-type{
         border-right:none;
     }

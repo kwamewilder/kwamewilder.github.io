@@ -17,9 +17,7 @@
         transition-timing-function: ease-out;
     }
     
-    img[data-src]:hover {
-        filter: blur(0.1em);
-    }
+   
 
     footer {
         font-size: 1em;
