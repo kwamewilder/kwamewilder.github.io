@@ -37,6 +37,11 @@ header img{
     align-items: center;
 }
 
+h2{
+    color:#345995;
+    
+}
+
 .title h1{
     font-family: 'Acme', serif;
     margin:.3em;
@@ -136,10 +141,15 @@ img {
 }
 
 .card p {
+    color:white;
+    background-color: #345995;
     text-align: center;
     padding: .5em;
 }
 
+img[data-src]:hover {
+    filter: blur(0.1em);
+}
 
 footer{
     background-color: #345995;
