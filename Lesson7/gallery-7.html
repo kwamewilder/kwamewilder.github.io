@@ -16,7 +16,7 @@
         <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
     </aside>
     <header>
-        <img src="images/logo.png" alt="Daily weather">
+        <img src="/Lesson6/images/logo.png" alt="Daily weather">
         <div class="title">
             <h1>Daily Weather Updates</h1>
             <h3>Source for accurate weather</h3>
@@ -93,17 +93,24 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji</p>
-        <p><span id="currentDate"></span></p>
+        <div>
+            &copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji | <span id="currentDate"></span>
+        </div>
+        
+             Days since last visit <span id="lastVist"> 0 </span>
+        
+         
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
+    
+     <script src="/Lesson7/js/script.js"></script>
+     <script src="/Lesson7/js/daySince.js"></script>
+     <script>
         WebFont.load({
             google: {
                 families: ['Newsreader' , 'Acme']
             }
         });
     </script>
-    <script src="js/script.js"></script>
     </body>
 </html>
