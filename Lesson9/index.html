@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Weather Updates | Home</title>
+    <link rel="shortcut icon" href="/Lesson6/images/logo.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="https://kit.fontawesome.com/2bdc0b59cd.js" crossorigin="anonymous"></script>
+</head>
+<body onload="date()">
+    <aside id="aside" style="display: none;">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img src="/Lesson6/images/logo.png" alt="Daily weather">
+        <div class="title">
+            <h1>Daily Weather Updates</h1>
+            <h3>Source for accurate weather</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="Btn">&#9776; Menu</a></li>
+            <li><a href= "#" class="active">Home</a></li>
+            <li><a href="#" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main id="towns">
+        
+    </main>
+    <article class="contact-info">
+        <img id="im" src="/Lesson5/images/map.jpg" alt="map">
+        <div class="wrapper-info">
+            <h3>Daily Weather Update</h3>
+            <div class="location">
+                <p><i class="fas fa-map-marker-alt"></i> 105N 1W</p>
+                <p>Prenston, ID 83263</p>
+            </div>
+            <p><i class="fas fa-phone-alt"></i> 222.222.2222</p>
+            <p><i class="fas fa-envelope"></i> contact@dailyweatherupdates.com</p>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </article>
+  <!--  <div class="wireframe"></div>  -->
+</body>
+<footer>
+    <div>
+        &copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji | <span id="currentDate"></span>
+    </div>
+    
+         Days since last visit <span id="lastVist"> 0 </span>
+</footer>
+</script>
+<script src="/Lesson9/js/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Newsreader' , 'Acme']
+        }
+    });
+    loadTowns()
+</script>
+
+</html>
