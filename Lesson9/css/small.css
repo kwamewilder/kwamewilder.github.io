@@ -1,22 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Newsreader:ital@0;1&display=swap&family=Acme&family=Josefin+Sans:ital@0;1&family=Merriweather:ital@0;1&family=Passion+One&display=swap");
+
 *{
     box-sizing: border-box;
     margin: 0;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ffc107b9;
+    font-family: 'Newsreader', serif;
+    
 }
 
 aside{
-    background-color: #ffc107;
+    background-color: #7CC6FE;
     padding:1em;
     text-align: center;
     font-weight: bold;
-    color: #856404;
+    color: white;
 }
 
 header{
-    background-color: #424874;
+    background-color: #345995;
     color: white;
     display: flex;
     justify-content: center;
@@ -32,9 +34,11 @@ header img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .title h1{
+    font-family: 'Acme', serif;
     margin:.3em;
     font-size: 1.5em;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
@@ -48,8 +52,8 @@ header img{
 }
 
 nav{
-    background: linear-gradient(to bottom, #A6B1E1 50% , #7CC6FE 100%);
-    box-shadow: 0 4px 6px -6px black;
+    background: #CCCCCC;
+    
 }
 
 .navigation{
@@ -64,19 +68,23 @@ nav{
 .navigation li {
     display: none;
 }
+.navigation li a:hover {
+    background-color:#FFEFB8;
+    color: #345995;
+}
 
 .navigation li a {
     display: block;
     padding: .8rem 2%;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 700;
     border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
 .active{
-    background-color: rgba(0, 0, 0, .2);
+    background-color: #FFEFB8;
 }
 
 .appear li {
@@ -98,6 +106,18 @@ main h2{
 .hero picture img{
     width: 100%;
     border-radius: .8em;
+}
+
+.herodiv{
+    background-image: url(/Lesson5/images/pexels-pixabay-414171.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 18em;
+    margin:1em;
+    margin-bottom: 2em;
+    
 }
 
 .hero-summary{
@@ -143,7 +163,7 @@ main h2{
 }
 
 .blog{
-    background-color: #A6B1E1;
+    background-color: #7CC6FE;
     padding: 1em;
     border-radius: .2em;
     margin:1em;
@@ -159,14 +179,13 @@ main h2{
 
 .blog .author{
     font-style: italic;
-    color: #496F5D;
-    font-size:.7em;
+    color: white;
+    font-size:1em;
     margin-bottom: 1em;
 }
 
 .blog img{
     max-width: 100%;
-    border-radius: .2em;
     margin: .5em 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
     0 2px 2px rgba(0, 0, 0, 0.15),
@@ -177,6 +196,8 @@ main h2{
 .blog p{
     font-size: .8em;
     line-height: 1.8;
+    
+    text-justify: inter-word;
 }
 
 .blog a {
@@ -380,7 +401,7 @@ img {
 
 /********  index styles *********/
 #towns section{
-    background-color: #A6B1E1;
+    background-color: #7CC6FE;
     padding: 1em;
     margin: 1em;
     text-align: center;
@@ -390,14 +411,13 @@ img {
 #towns section h2{
     font-size: 2em;
     margin-bottom: .1em;
-    text-shadow: 2px 2px 2px #555;
-    color: #333;
+    color:black;
     margin-top: 0;
 }
 
 #towns section h4{
     margin-bottom: .8em;
-    color: #333;
+    color: black;
 }
 
 #towns section p {
@@ -407,11 +427,13 @@ img {
 #towns section img{
     width: 70%;
     margin: .5em 0;
+    
+
 }
 
 
 footer{
-    background-color: #424874;
+    background-color: #345995;
     color: white;
     
     padding: 1em;

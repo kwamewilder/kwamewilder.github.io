@@ -29,7 +29,7 @@
     }
 
     main {
-        max-width: 80%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -146,14 +146,14 @@
 
     /***************** index stayles ********************/
     #towns section {
-        max-width: 800px;
+        max-width: 100%;
         display: flex;
         flex-direction: row;
         margin: 1rem;
     }
 
     #towns section:nth-child(odd) img {
-        padding-left: 2em;
+        margin-left: 5em;
     }
     
     #towns section:nth-child(even) {
