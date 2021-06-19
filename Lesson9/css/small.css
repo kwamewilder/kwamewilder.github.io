@@ -306,11 +306,15 @@ main h2{
 #towns section img{
     width: 70%;
     margin: .5em 0;
-    
-
 }
 
-
+.wireframe{
+    justify-content: center;
+}
+.wireframe img{
+    width: 40%;
+    margin-left: 10em;
+}
 footer{
     background-color: #345995;
     color: white;
