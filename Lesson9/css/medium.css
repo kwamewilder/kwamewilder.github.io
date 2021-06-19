@@ -114,35 +114,9 @@
         margin: 0 .1em;
     }
 
-    /********** storm center styles **********/
-    form {
-        width: 80%;
-        margin: .5em auto 2em auto;
-    }
+  
 
-    .input-box textarea {
-        height: 10em;
-    }
-
-    /***************** gallery stayles ********************/
-    .gallery {
-        display: grid;
-        grid-gap: 1.5em;
-        grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
-        padding: .5em 1em;
-        margin-bottom: 1em;
-    }
-
-    .gallery h2 {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
-
-    .card {
-        align-self: start;
-        margin: 0 0 1em 0;
-    }
+  
 
     /***************** index stayles ********************/
     #towns section {
