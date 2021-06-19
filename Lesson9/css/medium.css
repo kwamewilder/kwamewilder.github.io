@@ -127,14 +127,12 @@
     }
 
     #towns section:nth-child(odd) img {
-        margin-left: 5em;
+        margin-left: 7em;
     }
     
     #towns section:nth-child(even) {
         flex-direction: row-reverse; 
     }
-    #towns section:nth-child(even) img {
-        padding-right: 2em;
-    }
+   
   
 }

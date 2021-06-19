@@ -55,6 +55,13 @@
     #towns section{
         display: block;
     }
+    #towns section:nth-child(1) img {
+        margin-right: 9em;
+    }
+    #towns section:nth-child(3) img {
+        margin-right: 9em;
+    }
+    
 
     footer {
         font-size: 1em;
