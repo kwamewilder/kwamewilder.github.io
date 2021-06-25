@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Weather Updates | Home</title>
     <link rel="shortcut icon" href="/Lesson6/images/logo.png">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="/Lesson6/css/normalize.css">
+    <link rel="stylesheet" href="/Lesson6/css/small.css">
+    <link rel="stylesheet" href="/Lesson6/css/medium.css">
+    <link rel="stylesheet" href="/Lesson6/css/large.css">
     <script src="https://kit.fontawesome.com/2bdc0b59cd.js" crossorigin="anonymous"></script>
 </head>
 <body onload="date()">
@@ -16,7 +16,7 @@
         <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
     </aside>
     <header>
-        <img src="images/logo.png" alt="Daily weather">
+        <img src="/Lesson6/images/logo.png" alt="Daily weather">
         <div class="title">
             <h1>Daily Weather Updates</h1>
             <h3>Source for accurate weather</h3>
@@ -26,7 +26,7 @@
         <ul class="navigation">
             <li><a href="#" id="Btn">&#9776; Menu</a></li>
             <li><a href="/Lesson9/index.html">Home</a></li>
-            <li><a href="/Lesson10/preston-10.html" class="active">Preston</a></li>
+            <li><a href="preston-10.html" class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="/Lesson8/stormcenter.html">Storm Center</a></li>
@@ -37,42 +37,42 @@
         <h2>Preston Idaho</h2>
         <article class="herodiv">
             <picture>
-                <source media="(max-width: 575px)" srcset="images/small.jpg">
-                <source media="(max-width: 895px)" srcset="images/medium.jpg">
-                <img src="images/large.jpg" alt="hero image">
+                <source media="(max-width: 575px)" srcset="/Lesson6/images/small.jpg">
+                <source media="(max-width: 895px)" srcset="/lesson6/images/medium.jpg">
+                <img src="/Lesson6/images/large.jpg" alt="hero image">
             </picture>
             <div class="weatherSummary">
                 <h3>Weather Summary</h3>
-                <p>Currently: <span>Sunny</span></p>
-                <p>High: <span id="tempH">50</span>°F</p>
+                <p>Currently: <span id="curr"></span></p>
+                <p>High: <span id="tempH"></span>°F</p>
                 <p>Wind Chill: <span id="wChill"></span>°F</p>
-                <p>Humidity: <span>69%</span></p>
-                <p>Wind Speed: <span id="wSpeed">12</span> mph</p>
+                <p>Humidity: <span id="hum"></span>%</p>
+                <p>Wind Speed: <span id="wSpeed"></span> mph</p>
             </div>
         </article>
         <article class="forecast5">
             <h3>Five Day Forecast</h3>
             <table>
                 <tr>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                    <th>Sun</th>
+                    <th><span id="nameDay1">Wed</span></th>
+                    <th><span id="nameDay2">Thu</span></th>
+                    <th><span id="nameDay3">Fri</span></th>
+                    <th><span id="nameDay4">Sat</span></th>
+                    <th><span id="nameDay5">Sun</span></th>
                 </tr>
                 <tr>
-                    <td><i class="fas fa-sun fa-4x"></i></td>
-                    <td><i class="fas fa-sun fa-4x"></i></td>
-                    <td><i class="fas fa-sun fa-4x"></i></td>
-                    <td><i class="fas fa-sun fa-4x"></i></td>
-                    <td><i class="fas fa-sun fa-4x"></i></td>
+                    <td><img src="" alt="" id="imgForecast3"></td>
+                    <td><img src="" alt="" id="imgForecast11"></td>
+                    <td><img src="" alt="" id="imgForecast19"></td>
+                    <td><img src="" alt="" id="imgForecast27"></td>
+                    <td><img src="" alt="" id="imgForecast35"></td>
                 </tr>
                 <tr>
-                    <td>89°F</td>
-                    <td>87°F</td>
-                    <td>78°F</td>
-                    <td>75°F</td>
-                    <td>72°F</td>
+                    <td><span id="tempForecast3"></span>°F</td>
+                    <td><span id="tempForecast11"></span>°F</td>
+                    <td><span id="tempForecast19"></span>°F</td>
+                    <td><span id="tempForecast27"></span>°F</td>
+                    <td><span id="tempForecast35"></span>°F</td>
                 </tr>
             </table>
         </article>
@@ -130,7 +130,9 @@
             }
         });
     </script>
-    <script src="js/script.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="/Lesson10/js/weather.js"></script>
+    <script src="/Lesson10/js/script.js"></script>
+    <script src="/Lesson6/js/windchill.js"></script>
+    
 </body>
 </html>
