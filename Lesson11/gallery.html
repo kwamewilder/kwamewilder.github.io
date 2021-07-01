@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Weather Updates | Home</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="gallery/normalize.css">
+    <link rel="stylesheet" href="gallery/small.css">
+    <link rel="stylesheet" href="gallery/medium.css">
+    <link rel="stylesheet" href="gallerylarge.css">
+    <script src="https://kit.fontawesome.com/2bdc0b59cd.js" crossorigin="anonymous"></script>
+</head>
+<body onload="date()">
+    <aside id="aside" style="display: none;">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img src="images/logo.png" alt="Daily weather">
+        <div class="title">
+            <h1>Daily Weather Updates</h1>
+            <h3>Source for accurate weather</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="Btn">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html"class="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <div class="card">
+                <img src="images/placeholder.jpg"
+                    data-src="images/cloudy.jpg"
+                    alt="cloudy">
+                <p>Cloudy</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg"
+                    data-src="images/foggy.jpg"
+                    alt="foggy">
+                <p>Foggy</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/hail.jpg"
+                    alt="hail">
+                <p>Hail</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/haze.jpg"
+                    alt="haze">
+                <p>Haze</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/rainy.jpg"
+                    alt="Rainy">
+                <p>Rainy</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/snow.jpg"
+                    alt="snow">
+                <p>Snow</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/sunny.jpg" 
+                    alt="Sunny">
+                <p>Sunny</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/thunderstorm.jpg"
+                    alt="Thunderstorm">
+                <p>Thunderstorm</p>
+            </div>
+            <div class="card">
+                <img src="images/placeholder.jpg" 
+                    data-src="images/windy.jpg" 
+                    alt="aWindy">
+                <p>Windy</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            &copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji | <span id="currentDate"></span>
+        </div>
+        
+             Days since last visit <span id="lastVist"> 0 </span>
+        
+         
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    
+     <script src="/Lesson7/js/script.js"></script>
+     
+     <script>
+        WebFont.load({
+            google: {
+                families: ['Newsreader' , 'Acme']
+            }
+        });
+    </script>
+    </body>
+</html>

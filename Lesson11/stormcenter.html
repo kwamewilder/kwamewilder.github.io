@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Weather Updates | Home</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="stormcenter/normalize.css">
+    <link rel="stylesheet" href="stormcenter/small.css">
+    <link rel="stylesheet" href="stormcenter/medium.css">
+    <link rel="stylesheet" href="stormcenter/large.css">
+    <script src="https://kit.fontawesome.com/2bdc0b59cd.js" crossorigin="anonymous"></script>
+</head>
+<body onload="date()">
+    <aside id="aside" style="display: none;">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </aside>
+    <header>
+        <img src="images/logo.png" alt="Daily weather">
+        <div class="title">
+            <h1>Daily Weather Updates</h1>
+            <h3>Source for accurate weather</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" id="Btn">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+        <form action="thanks.html">
+            <div class="input-box">
+                <label for="name">Full Name</label>
+                <input type="text" name="name" pattern="[a-zA-Z ]{5,}" required>
+            </div>
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="adress@yourmail.com">
+            </div>
+            <div class="input-box">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel"  name="phoneNumber" required>
+            </div>
+            <div class="input-box">
+                <label for="zipCode">Zip Code</label>
+                <input type="number" required>
+            </div>
+            <div class="input-box">
+                <label for="stormDate">Storm Date</label>
+                <input type="date" name="stormDate">
+            </div>
+            <div class="input-box">
+                <label for="selectStormTypestormType">Storm Type</label>
+                <input list="stormType" id="selectStormType" name="selectStormType">
+                <datalist id="stormType">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+            </div>
+            <div class="input-box">
+                <label for="stormSeverity">Storm Severity</label>
+                <div id="range">
+                    <input type="range" id="stormSeverity" value="5" min="1" max="10" step="1" list="tickmarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </div>
+            </div>
+            <div class="input-box">
+                <label for="stormRegion">Storm Region</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option selected="selected" disabled>Select Region ...</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda-springs">Soda Springs</option>
+                    <option value="fish-haven">Fish Haven</option>
+                </select>
+            </div>
+            <fieldset>
+                <legend>User In-Danger</legend>
+                <div class="radio">
+                    <input type="radio" id="yes" name="inDanger" value="yes" class="radio">
+                    <label for="yes">Yes</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="maybe" name="inDanger" value="maybe" class="radio">
+                    <label for="maybe">Maybe</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="no" name="inDanger" value="no" class="radio">
+                    <label for="no">No</label>
+                </div>
+            </fieldset>
+            <div class="input-box">
+                <label for="addInfo">Additional Information</label>
+                <textarea name="addInfo" id="addInfo" cols="10" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Report Event" class="send">
+        </form>
+    </main>
+    <footer>
+        <div>
+            &copy; 2021 | Daily Weather Updates | Emmanuel W. Kumordji | <span id="currentDate"></span>
+        </div>
+        
+             Days since last visit <span id="lastVist"> 0 </span>
+        
+         
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    
+     <script src="js/script.js"></script>
+     
+     <script>
+        WebFont.load({
+            google: {
+                families: ['Newsreader' , 'Acme']
+            }
+        });
+    </script>
+    </body>
+</html>
