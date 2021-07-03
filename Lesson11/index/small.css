@@ -196,8 +196,8 @@ main h2{
 }
 
 .blog p{
-    font-size: .8em;
-    line-height: 1.8;
+    font-size: 1em;
+    line-height: 1.5;
     
     text-justify: inter-word;
 }
