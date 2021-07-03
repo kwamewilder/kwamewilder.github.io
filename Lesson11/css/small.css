@@ -170,6 +170,26 @@ article {
     background-color: #7CC6FE; 
 }
 
+.events {
+    background-color: #7CC6FE;;
+    margin-top: 1em;
+   
+}
+
+.events h3{
+    text-align: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #345995;
+    
+}
+
+.events ul{
+    text-align: center;
+    margin-top: .5em;
+    line-height: 1.8;
+    padding: 0;
+    list-style: circle;
+}
 
 .contact-info{
     background-color: #7CC6FE;
