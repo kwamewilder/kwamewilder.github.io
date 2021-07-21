@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+a {
+  color: #ff495c;
+  font-weight: bold;
+}
+
+body {
+  
+  margin: 0 auto;
+  font-family: 'Bitter', serif;
+  background-color: #FFFFFF;
+}
+
+.cards {
+  padding-top: 5px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.cards section {
+  border: 2px solid #ff495c;
+  
+}
+
+.cards section img {
+  border-radius: 8px;
+  width: 95%;
+  height: auto;
+  padding: 5px;
+  filter: blur(0em);
+  transition: filter 1s;
+}
+
+.contact_info {
+  grid-column: 1;
+  margin: auto;
+}
+
+.contact_info h3, .contact_info h4 {
+  text-align: center;
+  color: #326273;
+}
+
+.contactdiv iframe {
+  margin: auto;
+  width: 100%;
+}
+
+.contactdiv h4 {
+  text-decoration: underline;
+}
+
+.contactdiv {
+	display: grid;
+	grid-template-columns: 1fr;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #000;
+  box-shadow: 1px 1px #05386b;
+}
+
+#comments {
+  height: 85px;
+  width: 300px;
+}
+
+#copyright {
+  font-family: 'Roboto Slab', serif;
+}
+
+#dates {
+  font-size: 1.0em;
+  font-family: 'Roboto Slab', serif;
+  padding-top: 5px;
+}
+
+#day1 {
+  color: #05386b;
+  font-family: Century-Schoolbook;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+#fiveDay {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  color: #05386b;
+  font-family: Century-Schoolbook;
+}
+
+.forecasts {
+  
+  padding: 3px;
+  margin: 2px;
+  background-color: #FF7784;
+  border: 2px solid #ff495c;
+ 
+}
+
+.forecastdiv h3, .articlediv h3 {
+  text-align: center;
+}
+.weather{
+  text-align: center;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #05386b;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #05386B;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+
+form label.top, form label.info, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #ff7784;
+  font-size: .8rem;
+}
+
+form label.info input:required {
+  border-left: red solid 6px;
+}
+
+form label.info input:required:valid {
+  border-left: green solid 6px;
+}
+
+form label.top input, form label.info input, form label.rental select, form label.deposit select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #000;
+  border-radius: 4px;
+  padding: .5rem;
+  color: #ff7784;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #ffffff;
+}
+
+form label.rental {
+  display: block;
+  padding: .75rem 0;
+  color: #ff7784;
+}
+
+form input.submit_button {
+  border: none;
+  background-color: #ff7784;
+  color: #fcfcfc;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 2rem 5%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+footer {
+  background-color: #ff7784;
+  color: #fcfcfc;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+
+#gallery_imgs {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+#gallery_imgs figure {
+  margin: 0;
+  padding: 0;
+}
+
+#gallery_imgs figcaption {
+  
+  font-size: 1em;
+  color: #ff495c;
+  text-align: center;
+}
+
+.galleryImage {
+  width: 100%;
+}
+
+header {
+  color: #ff495c;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  padding: 5px 0;
+  font-family: 'Bangers', cursive;
+}
+
+header img {
+  height: 80px;
+  width: auto;
+  padding-right: 10px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading h1 {
+  font-size: 1.8em;
+  font-family: 'Bangers', cursive;
+  margin-bottom: 0px;
+}
+
+#homeTitle {
+  border-style: groove;
+  border-color: #FF495C;
+  background-color: #ff7784;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+#homeTitle img {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+  
+  color: #fcfcfc;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.2em;
+  color: #ff495c;
+  
+}
+
+h4 {
+  color: #ff495c;
+  font-family: 'Roboto Slab', serif;
+}
+
+img[data-src] {
+  filter: blur(0.4em);
+}
+
+img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+main {
+  margin: auto;
+}
+
+
+
+nav {
+	margin: 0 auto;
+  background-color: #FCFCFC;
+  border-radius: 15px;
+  color: #ff495c;
+}
+
+nav ul li a.active{
+  background-color: #ff495c;
+  border-radius: 15px;
+  color:#FCFCFC;
+}
+
+.nav_bar {
+  list-style: none;
+  text-align: center;
+	padding: 0;
+}
+
+.nav_bar li:first-child {
+	display: block;
+}
+
+.nav_bar li {
+	display: none;
+}
+
+.nav_bar a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #ff495c;
+	font-weight: 700;
+}
+
+.nav_bar a:hover {
+	color: #FCFCFC;
+  background-color: #ff495c;
+  border-radius: 15px;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  color:	#326773;
+}
+
+.rentalInfo p {
+  color: #326773;
+}
+
+.rentalInfo {
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
+  border: 1px solid #000;
+  box-shadow: 1px 1px #05386b;
+  color: #326773;
+}
+
+.rentalInfoHome {
+  padding-right: 10px;
+  border: 1px solid #000;
+  
+  color: #326773;
+}
+
+.responsive li {
+	display: block;
+}
+
+.summary {
+	border: 1px solid #ff495c;
+	padding: 5px;
+	
+}
+
+.summary p {
+  color: #ff495c;
+  font-weight: bolder;
+}
+
+.tours p {
+  color: #05386B;
+}
+
+.tours {
+	display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+	padding: 10px;
+  border: 1px solid #000;
+  box-shadow: 1px 1px #05386b;
+  color: #05386B;
+}
+
+#tours_img {
+  width: 100%;
+}
