@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Takoradi Home">
+    <link rel="icon" href=".images/logo-small.png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Takoradi Home</title>
+  </head>
+  <body>
+    <header>
+        <picture>
+            <source media="(max-width: 500px)" srcset="./images/logo-small.png">
+            <source media="(max-width: 1000px)" srcset="./images/logo-medium.png">
+            <img src="./images/logo-large.png" alt="Takoradi Logo">
+        </picture>
+
+        </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="takoradi.html">Takoradi</a></li>
+        <li><a href="join.html">Join Us</a></li>
+        <li><a href="directory.html">Tours</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="homeTitle">
+        <img src="./images/tadi.JPG" alt="Takoradi">
+        <h2>The Oil City</h2>
+      </div>
+      <div class="cards">
+            <section>
+            <p>Takoradi, the other part of the twin city, Sekondi - Takoradi is a port city on the Gulf
+                of Guinea (an embayment of the Atlantic Ocean) in Southern Ghana. Both the Dutch and the 
+                British built forts in the 17th century that were destroy by Ahanta, the natives of Takoradi.
+                 Fort Orange, rebuilt by the Dutch and bought by the British in 1872, survives as a lighthouse. 
+                 The city is well planned with modern buildings and tree-shaded residential areas. The habour is 
+                 terminus of several Ghana railwyas and is served by road and air.</p>
+            
+            <form method="GET" action="join.html">
+              <input class="submit_button" type="submit" value="Register for membership" id="homeSubmit">
+            </form>
+          </section>
+
+
+        <section>
+          <h4>Eat Alley Eatery</h4>
+          <img src="./images/restaurant1.png" alt="Terminal Puerta Maya">
+          <br>
+          <p> Eat Alley Eatery was started  with three simple things in mind: good food, great prices, and 
+              a matchless service. On the other hand, when everyday people sort through all the 'spin' there 
+              was one Family Style restaurant that is 'A Cut Above'… that's Eat Alley Eatery … 
+              we stand for matchless meals … </p>
+          <form action = "/eatalleyeatery.com">
+            <input class="submit_button" type="submit" value="Visit" id="homeSubmit">
+        </form>
+        </section>
+        <section>
+            <h4>Raybow International Hotel</h4>
+            <img src="./images/raybow.jpg" alt="Terminal Puerta Maya">
+            <p> At Raybow hotel, we don't only cater for your personal needs, we also make provision for 
+                your corporate and business needs as well. Raybow Hotel is one of the finest hotels Western 
+                Region has produced. Extremely popular with foreign and local business travelers. . </p>
+            <form action = "/eatalleyeatery.com">
+              <input class="submit_button" type="submit" value="Visit" id="homeSubmit">
+          </form>
+          </section>
+          <section>
+            <h4>Takoradi Mall</h4>
+            <img src="./images/mall.jpg" alt="Terminal Puerta Maya">
+            <form action = "/eatalleyeatery.com">
+              <input class="submit_button" type="submit" value="Visit" id="homeSubmit">
+          </form>
+          </section>
+        <section class="summary">
+            <div class="weather">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="curr"></span></p>
+                <p>High: <span id="tempH"></span>°F</p>
+                <p>Wind Chill: <span id="wChill"></span>°F</p>
+                <p>Humidity: <span id="hum"></span>%</p>
+                <p>Wind Speed: <span id="wSpeed"></span> mph</p>
+            </div>
+  			</section>
+        <div class="forecasts">
+            <table>
+                <tr>
+                    <th><span id="nameDay1"></span></th>
+                    <th><span id="nameDay2"></span></th>
+                    <th><span id="nameDay3"></span></th>
+                    
+                </tr>
+                <tr>
+                    <td><img src="" alt="" id="imgForecast3"></td>
+                    <td><img src="" alt="" id="imgForecast11"></td>
+                    <td><img src="" alt="" id="imgForecast19"></td>
+                   
+                </tr>
+                <tr>
+                    <td><span id="tempForecast3"></span>°F</td>
+                    <td><span id="tempForecast11"></span>°F</td>
+                    <td><span id="tempForecast19"></span>°F</td>
+                 
+                </tr>
+            </table>
+        </div>
+       
+        <div class="links">
+          <h3>Check Us Out on Social Media!</h3>
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/" class="fa fa-twitter"></a>
+          <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        &copy;<span id="copyright"></span> Takoradi.com | Emmanuel Kumordji 
+      </div>
+      <span id="dates"></span>
+    </footer>
+    <script src="./script/site.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+      WebFont.load({google: {families: ['Bangers', 'Roboto Slab']}});
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Takoradi Home">
+    <link rel="icon" href=".images/logo-small.png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Takoradi | Contact</title>
+  </head>
+  <body>
+    <header>
+        <picture>
+            <source media="(max-width: 500px)" srcset="./images/logo-small.png">
+            <source media="(max-width: 1000px)" srcset="./images/logo-medium.png">
+            <img src="./images/logo-large.png" alt="Takoradi Logo">
+        </picture>
+
+        </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="takoradi.html">Takoradi</a></li>
+        <li><a  href="join.html">Join Us</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+        <div id="homeTitle">
+            <h2>Contact Us</h2>
+          </div>
+          
+          
+          <div class="contactdiv">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127204.78021760799!2d-1.8477223258218096!3d4.914660977986523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfe7799a7b4d8bd9%3A0xd5df62ba6ac74520!2sTakoradi!5e0!3m2!1sen!2sgh!4v1626906971669!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="contact_info">
+              
+              <h3>Boot CT</h3>
+              <h3>Adakope</h3>
+              <h3>+233 (054)-266-7788</h3>
+              <h3>contact@takoradi.com</h3>
+            </div>
+          </div>
+            <form method="GET" action="thanks.html">
+              <fieldset>
+                <legend>Contact Us </legend>
+                  <label class="info">
+                  *Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                  </label>
+                  <label class="info">
+                  Email: <input type="email" name="email" placeholder="info@takoradi.com">
+                  </label>
+                  <label class="top">Comments: </label>
+                  <textarea name="comments" id="comments">
+                  </textarea>
+              </fieldset>
+              <input class="submit_button" type="submit" value="Submit">
+            </form>
+        </main>
+       
+
+        <footer>
+            <div>
+              &copy;<span id="copyright"></span> Takoradi.com | Emmanuel Kumordji 
+            </div>
+            <span id="dates"></span>
+          </footer>
+          <script src="./script/site.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+          </script>
+          <script>
+            WebFont.load({google: {families: ['Bangers', 'Roboto Slab']}});
+          </script>
+        </body>
+      </html>
