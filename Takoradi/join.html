@@ -24,7 +24,7 @@
         </header>
     <nav>
       <ul class="nav_bar">
-        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="#" onclick="toggle_nav()">&#9776; Menu</a></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="takoradi.html">Takoradi</a></li>
         <li><a class="active" href="join.html">Join Us</a></li>
@@ -37,7 +37,7 @@
         <div id="homeTitle">
             <h2>Register here</h2>
           </div>
-          <form method="GET" action="confirmation.html">
+          <form method="GET" action="thanks.html">
               <fieldset>
                 <legend>Please enter your Information</legend>
                   <label class="info">
@@ -72,6 +72,15 @@
                     </label>              
                   <label class="top">Bisness Description </label>
                   <textarea name="comments" id="comments"></textarea>
+                  <label class="rental">Membership Level </label>
+                  <input type="radio" name="mebership" value="Non-profit ($100)"> Non-profit ($100)
+                  <br>
+                  <input type="radio" name="mebership" value="Bronze ($200)"> Bronze ($200)
+                  <br>
+                  <input type="radio" name="mebership" value="Silver ($400)"> Silver ($400)
+                  <br>
+                  <input type="radio" name="mebership" value="Gold ($1000)"> Gold ($1000)
+                 
               </fieldset>
               <input class="submit_button" type="submit" value="submit">
           </form>

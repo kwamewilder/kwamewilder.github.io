@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Takoradi Home">
+    <link rel="icon" href=".images/logo-small.png">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Takoradi City</title>
+  </head>
+  <body>
+    <header>
+        <picture>
+            <source media="(max-width: 500px)" srcset="./images/logo-small.png">
+            <source media="(max-width: 1000px)" srcset="./images/logo-medium.png">
+            <img src="./images/logo-large.png" alt="Takoradi Logo">
+        </picture>
+
+        </header>
+    <nav>
+      <ul class="nav_bar">
+        <li><a href="#" onclick="toggle_nav()">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="takoradi.html">Takoradi</a></li>
+        <li><a href="join.html">Join Us</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+        <h2>Thank you</h2>
+        <p>We will contact you within 24 hours</p>
+
+        <footer>
+            <div>
+              &copy;<span id="copyright"></span> Takoradi.com | Emmanuel Kumordji 
+            </div>
+            <span id="dates"></span>
+          </footer>
+          <script src="./script/site.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+          </script>
+          <script>
+            WebFont.load({google: {families: ['Bitter']}});
+          </script>
+        </body>
+      </html>
