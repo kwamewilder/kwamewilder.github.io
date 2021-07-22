@@ -70,12 +70,12 @@ body {
 }
 
 #copyright {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Bitter', serif;
 }
 
 #dates {
   font-size: 1.0em;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Bitter', serif;
   padding-top: 5px;
 }
 
@@ -124,8 +124,16 @@ body {
   margin: 0 auto;
   width: 800px;
   text-align: center;
-  color: #05386b;
-  font-family: Century-Schoolbook;
+  
+}
+
+aside{
+  background-color: #FF7784;
+  padding:1em;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  
 }
 
 .forecasts {
@@ -243,7 +251,7 @@ header {
   justify-content: center;
   display: flex;
   padding: 5px 0;
-  font-family: 'Bangers', cursive;
+ 
 }
 
 header img {
