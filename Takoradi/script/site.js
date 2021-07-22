@@ -38,13 +38,6 @@ function loadData() {
 }
 
 
-
-
-
-
-
-
-
 function toggle_nav() {
    document.getElementsByClassName("nav_bar")[0].classList.toggle("responsive");
 }
@@ -97,3 +90,4 @@ fetch(apiURL)
           }
   
   });
+

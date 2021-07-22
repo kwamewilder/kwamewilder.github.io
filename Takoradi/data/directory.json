@@ -1,0 +1,63 @@
+{
+  "directory": [
+    {
+      "name": "Cynex IT Solutions",
+      "add": "P. O. Box mc 2127",
+      "tel": "0200693105",
+      "web": "www.cynexitsgh.com",
+      "est": "Est date:2011",
+      "image": "cynex.jpg"
+    },
+    {
+        "name": "Wyll Technologies",
+        "add": "P. O. Box mc 3625",
+        "tel": "0503031256",
+        "web": "www.wylltech.com",
+        "est": 2012,
+        "image": "wyll.jpg"
+      },
+      {
+        "name": "Varcity Learning Centre",
+        "add": "No.41 Lib Rd",
+        "tel": "0551327210",
+        "web": "www.varcitylearningcentre.com",
+        "est": 2010,
+        "image": "varcity.png"
+      },
+      {
+        "name": "All Perles Real Estate",
+        "add": "Dixcove Hill, Beach Rd",
+        "tel": "0249204322",
+        "web": " ",
+        "est": 2015,
+        "image": "perles.jpg"
+      },
+      {
+        "name": "Feeliks Intervention",
+        "add": "P. O. Box kj 17",
+        "tel": "0246059220",
+        "web": "www.feeliksinterventiongh.com",
+        "est": 2014,
+        "image": "feeliks.png"
+      },
+      {
+        "name": "Inspectors and Engineers",
+        "add": "409 MRS Cudjoe Rd",
+        "tel": "0312003425",
+        "web": "www.inspectorsandengineers.com",
+        "est": 2015,
+        "image": "ins.jpg"
+      },
+      {
+        "name": "St. Pauls Dental Clinic",
+        "add": "P. O. Box mc 863",
+        "tel": "0204609018",
+        "web": "",
+        "est": 2012,
+        "image": "dental.jpg"
+      }
+   
+  ]
+}
+
+   
