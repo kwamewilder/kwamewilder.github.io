@@ -1,13 +1,24 @@
-const date = new Date();
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
-const monthAbbrNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function date() {
+   var date = new Date;
+   var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+   var weekDay = weekDays[date.getDay()];
+   var dayNum = date.getDate();
+   var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+   var month = months[date.getMonth()];
+   var year = date.getUTCFullYear();
+   var weekday, month;
 
-const day = date.getDay();
-const dayName = days[day];
-const month = date.getMonth();
-const monthName = monthNames[month-1];
-const year = date.getFullYear();
+   if (weekDay == "Thursday"){
+       let aside = document.getElementById("aside");
+       aside.style.display = "block";
+   }
+   
+   var display = weekDay + ", " + dayNum + " " + month + " " + year;
+
+   document.getElementById("currentDate").innerHTML = display;
+   document.getElementById("year").innerHTML = year;
+
+}
 //document.getElementById("today").innerHTML = dayName + ', ' + date.getDate() + ' ' + monthName  + ' ' + year;
 //document.getElementById("year").innerHTML = year;
 var data;
