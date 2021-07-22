@@ -400,11 +400,11 @@ p {
   font-weight: bolder;
 }
 
-.tours p {
+.city p {
   color: #05386B;
 }
 
-.tours {
+.city {
 	display: block;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -414,6 +414,6 @@ p {
   color: #05386B;
 }
 
-#tours_img {
+#city_img {
   width: 100%;
 }
