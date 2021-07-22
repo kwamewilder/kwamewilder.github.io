@@ -275,7 +275,7 @@ header img {
 #homeTitle {
   border-style: groove;
   border-color: #FF495C;
-  background-color: #ff7784;
+  background-color: white;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
@@ -294,7 +294,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   
-  color: #fcfcfc;
+  color: #ff495c;
   text-shadow: 1px 1px 1px #000;
 }
 
