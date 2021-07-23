@@ -211,6 +211,19 @@ form input.submit_button {
   max-width: 20rem;
 }
 
+.visit {
+  display: block;
+  border: none;
+  background-color: #ff7784;
+  color: #fcfcfc;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 2rem 5%;
+  width: 96%;
+  max-width: 20rem;
+}
+
 footer {
   background-color: #ff7784;
   color: #fcfcfc;
@@ -375,25 +388,7 @@ p {
   color:	#326773;
 }
 
-.rentalInfo p {
-  color: #326773;
-}
 
-.rentalInfo {
-	display: block;
-	margin-top: 15px;
-	padding: 10px;
-  border: 1px solid #000;
-  box-shadow: 1px 1px #05386b;
-  color: #326773;
-}
-
-.rentalInfoHome {
-  padding-right: 10px;
-  border: 1px solid #000;
-  
-  color: #326773;
-}
 
 .responsive li {
 	display: block;

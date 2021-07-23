@@ -20,7 +20,7 @@
         grid-template-columns: 1fr 1fr;
       }
     
-      form input.submit_button {
+      .visit {
         border: none;
         background-color: #ff7784;
         color: #fcfcfc;

@@ -90,4 +90,7 @@ fetch(apiURL)
           }
   
   });
+  function eat() {
+   window.location.href="http://eatalleryeatery.com";
+ }
 
